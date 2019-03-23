@@ -1,4 +1,4 @@
-export const hander = async (event: any) => {
+export const handler = async (event: any) => {
     const subject = event.queryStringParameters.name || 'Word'
     return {
         statusCode: 200,
